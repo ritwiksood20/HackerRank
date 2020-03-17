@@ -9,11 +9,13 @@ import java.util.regex.*;
 public class RepeatedString {
 
     // Complete the repeatedString function below.
-    static long repeatedString(String s, long n) {
+    static long repeatedString(String s, long n) {{
+
+    }
             long whole=n/s.length();
             int remainder=(int)(n%s.length());
             long found=0;
-            for(char ch : s.toCharArray()){
+           for(char ch : s.toCharArray()){
                 if(ch=='a')
                     found++;
             }
