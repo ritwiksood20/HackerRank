@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class CirculaRotation {
+public class CircularRotation {
 
     // Complete the circularArrayRotation function below.
     static int[] circularArrayRotation(int[] a, int k, int[] queries) {
